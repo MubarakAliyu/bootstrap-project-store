@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Header styling */
+  header {
+    background-color: #F37022; /* tomato red */
+    color: white;
+    padding: 20px 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  /* Product section */
+  .product-card {
+    transition: transform 0.3s ease;
+  }
+
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+
+  .product-image {
+    height: 200px;
+    object-fit: contain;
+  }
+
+  /* Footer styling */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* Responsive tweaks */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
